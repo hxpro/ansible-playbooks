@@ -1,0 +1,28 @@
+---
+- name: prepare container for test
+  hosts: localhost
+  gather_facts: no
+  connection: local
+
+  tasks:
+    - name: Create container with centos7
+      docker_container:
+        name: "centos7"
+        image: hxpro/docker-centos
+        recreate: yes
+        command: /usr/sbin/init
+        volumes:
+          - "/sys/fs/cgroup:/sys/fs/cgroup:ro"
+        state: started
+
+    - name: add host
+      add_host:
+        name: 'centos7'
+        groups: containers
+
+- name: test role
+  hosts: containers
+  connection: docker
+  roles:
+    - role: "{{ playbook_dir }}"
+

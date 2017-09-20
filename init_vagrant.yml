@@ -1,0 +1,5 @@
+---
+- name: Test ansible-playbooks
+  hosts: all
+  roles:
+    - hxpro.bootstrap

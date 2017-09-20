@@ -1,0 +1,6 @@
+.idea
+.vagrant
+ansible.cfg
+ansible.log
+*.retry
+*.pyc

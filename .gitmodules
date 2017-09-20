@@ -1,0 +1,45 @@
+[submodule "library/extras"]
+	path = library/extras
+	url = https://github.com/ansible/ansible-modules-extras.git
+[submodule "roles/hxpro.letsencrypt"]
+	path = roles/hxpro.letsencrypt
+	url = https://github.com/hxpro/ansible-role-letsencrypt.git
+[submodule "roles/hxpro.phpfpm"]
+	path = roles/hxpro.phpfpm
+	url = https://github.com/hxpro/ansible-role-phpfpm.git
+[submodule "roles/hxpro.mongodb"]
+	path = roles/hxpro.mongodb
+	url = https://github.com/hxpro/ansible-role-mongodb.git
+[submodule "roles/hxpro.epel"]
+	path = roles/hxpro.epel
+	url = https://github.com/hxpro/ansible-role-epel.git
+[submodule "roles/hxpro.fastcgi-wrapper"]
+	path = roles/hxpro.fastcgi-wrapper
+	url = https://github.com/hxpro/ansible-role-fastcgi-wrapper.git
+[submodule "roles/hxpro.bootstrap"]
+	path = roles/hxpro.bootstrap
+	url = https://github.com/hxpro/ansible-role-bootstrap.git
+[submodule "roles/hxpro.selinux"]
+	path = roles/hxpro.selinux
+	url = https://github.com/hxpro/ansible-role-selinux.git
+[submodule "roles/hxpro.openvpn"]
+	path = roles/hxpro.openvpn
+	url = https://github.com/hxpro/ansible-role-openvpn.git
+[submodule "roles/hxpro.mysql"]
+	path = roles/hxpro.mysql
+	url = https://github.com/hxpro/ansible-role-mysql.git
+[submodule "roles/hxpro.nginx"]
+	path = roles/hxpro.nginx
+	url = https://github.com/hxpro/ansible-role-nginx.git
+[submodule "roles/hxpro.ntpd"]
+	path = roles/hxpro.ntpd
+	url = https://github.com/hxpro/ansible-role-ntpd.git
+[submodule "roles/hxpro.dnsmasq"]
+	path = roles/hxpro.dnsmasq
+	url = https://github.com/hxpro/ansible-role-dnsmasq.git
+[submodule "roles/hxpro.docker-engine"]
+	path = roles/hxpro.docker-engine
+	url = https://github.com/hxpro/ansible-role-docker-engine.git
+[submodule "roles/hxpro.s3fs"]
+	path = roles/hxpro.s3fs
+	url = https://github.com/hxpro/ansible-role-s3fs.git
