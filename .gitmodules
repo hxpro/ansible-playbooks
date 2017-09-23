@@ -43,3 +43,6 @@
 [submodule "roles/hxpro.s3fs"]
 	path = roles/hxpro.s3fs
 	url = https://github.com/hxpro/ansible-role-s3fs.git
+[submodule "roles/hxpro.xhgui"]
+	path = roles/hxpro.xhgui
+	url = https://github.com/hxpro/ansible-role-xhgui.git
