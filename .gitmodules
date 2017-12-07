@@ -46,3 +46,6 @@
 [submodule "roles/hxpro.xhgui"]
 	path = roles/hxpro.xhgui
 	url = https://github.com/hxpro/ansible-role-xhgui.git
+[submodule "roles/hxpro.phpmyadmin"]
+	path = roles/hxpro.phpmyadmin
+	url = https://github.com/hxpro/ansible-role-phpmyadmin.git
