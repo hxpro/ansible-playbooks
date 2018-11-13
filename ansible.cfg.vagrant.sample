@@ -5,9 +5,6 @@ library = library
 roles_path = roles
 host_key_checking = False
 
-callback_plugins = callback_plugins/
-
-
 log_path = ansible.log
 
 ansible_managed = This file is managed by Ansible.%n
