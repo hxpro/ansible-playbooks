@@ -49,3 +49,6 @@
 [submodule "roles/hxpro.phpmyadmin"]
 	path = roles/hxpro.phpmyadmin
 	url = https://github.com/hxpro/ansible-role-phpmyadmin.git
+[submodule "roles/hxpro.iptables-services"]
+	path = roles/hxpro.iptables-services
+	url = https://github.com/hxpro/ansible-role-iptables-services.git
