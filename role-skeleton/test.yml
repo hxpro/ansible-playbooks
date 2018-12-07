@@ -10,6 +10,7 @@
         name: "centos7"
         image: hxpro/docker-centos
         recreate: yes
+        privileged: yes
         command: /usr/sbin/init
         volumes:
           - "/sys/fs/cgroup:/sys/fs/cgroup:ro"
