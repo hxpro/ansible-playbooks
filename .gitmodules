@@ -1,57 +1,75 @@
 [submodule "library/extras"]
 	path = library/extras
 	url = https://github.com/ansible/ansible-modules-extras.git
+        branch = devel
 [submodule "roles/hxpro.letsencrypt"]
 	path = roles/hxpro.letsencrypt
 	url = https://github.com/hxpro/ansible-role-letsencrypt.git
+	branch = master
 [submodule "roles/hxpro.phpfpm"]
 	path = roles/hxpro.phpfpm
 	url = https://github.com/hxpro/ansible-role-phpfpm.git
+	branch = master
 [submodule "roles/hxpro.mongodb"]
 	path = roles/hxpro.mongodb
 	url = https://github.com/hxpro/ansible-role-mongodb.git
+	branch = master
 [submodule "roles/hxpro.epel"]
 	path = roles/hxpro.epel
 	url = https://github.com/hxpro/ansible-role-epel.git
+	branch = master
 [submodule "roles/hxpro.fastcgi-wrapper"]
 	path = roles/hxpro.fastcgi-wrapper
 	url = https://github.com/hxpro/ansible-role-fastcgi-wrapper.git
+	branch = master
 [submodule "roles/hxpro.bootstrap"]
 	path = roles/hxpro.bootstrap
 	url = https://github.com/hxpro/ansible-role-bootstrap.git
+	branch = master
 [submodule "roles/hxpro.selinux"]
 	path = roles/hxpro.selinux
 	url = https://github.com/hxpro/ansible-role-selinux.git
+	branch = master
 [submodule "roles/hxpro.openvpn"]
 	path = roles/hxpro.openvpn
 	url = https://github.com/hxpro/ansible-role-openvpn.git
+	branch = master
 [submodule "roles/hxpro.mysql"]
 	path = roles/hxpro.mysql
 	url = https://github.com/hxpro/ansible-role-mysql.git
+	branch = master
 [submodule "roles/hxpro.nginx"]
 	path = roles/hxpro.nginx
 	url = https://github.com/hxpro/ansible-role-nginx.git
+	branch = master
 [submodule "roles/hxpro.ntpd"]
 	path = roles/hxpro.ntpd
 	url = https://github.com/hxpro/ansible-role-ntpd.git
+	branch = master
 [submodule "roles/hxpro.dnsmasq"]
 	path = roles/hxpro.dnsmasq
 	url = https://github.com/hxpro/ansible-role-dnsmasq.git
+	branch = master
 [submodule "roles/hxpro.docker-engine"]
 	path = roles/hxpro.docker-engine
 	url = https://github.com/hxpro/ansible-role-docker-engine.git
+	branch = master
 [submodule "roles/hxpro.s3fs"]
 	path = roles/hxpro.s3fs
 	url = https://github.com/hxpro/ansible-role-s3fs.git
+	branch = master
 [submodule "roles/hxpro.xhgui"]
 	path = roles/hxpro.xhgui
 	url = https://github.com/hxpro/ansible-role-xhgui.git
+	branch = master
 [submodule "roles/hxpro.phpmyadmin"]
 	path = roles/hxpro.phpmyadmin
 	url = https://github.com/hxpro/ansible-role-phpmyadmin.git
+	branch = master
 [submodule "roles/hxpro.iptables-services"]
 	path = roles/hxpro.iptables-services
 	url = https://github.com/hxpro/ansible-role-iptables-services.git
+	branch = master
 [submodule "roles/hxpro.memcached"]
 	path = roles/hxpro.memcached
 	url = https://github.com/hxpro/ansible-role-memcached.git
