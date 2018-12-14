@@ -13,6 +13,10 @@ ansible_managed = This file is managed by Ansible.%n
   user: {uid}
   host: {host}
 
+[galaxy]
+role_skeleton = role-skeleton
+role_skeleton_ignore = ^.git$,^.*/.git_keep$
+
 [privilege_escalation]
 become=True
 become_method=sudo
