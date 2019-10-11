@@ -74,3 +74,7 @@
 	path = roles/hxpro.memcached
 	url = https://github.com/hxpro/ansible-role-memcached.git
 	branch = master
+[submodule "roles/hxpro.hypervisor"]
+	path = roles/hxpro.hypervisor
+	url = https://github.com/hxpro/ansible-role-hypervisor.git
+	branch = master
