@@ -58,10 +58,6 @@
 	path = roles/hxpro.s3fs
 	url = https://github.com/hxpro/ansible-role-s3fs.git
 	branch = master
-[submodule "roles/hxpro.xhgui"]
-	path = roles/hxpro.xhgui
-	url = https://github.com/hxpro/ansible-role-xhgui.git
-	branch = master
 [submodule "roles/hxpro.phpmyadmin"]
 	path = roles/hxpro.phpmyadmin
 	url = https://github.com/hxpro/ansible-role-phpmyadmin.git
